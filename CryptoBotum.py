@@ -81,7 +81,7 @@ def twoHour(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text=text)
 
 def timer(update, context):
-    schedule.every(0.10).hours.do(twoHour,update=update, context=context)
+    schedule.every(0.35).hours.do(twoHour,update=update, context=context)
     stop_run_continuously = run_continuously()
 
 def timer2():
