@@ -93,7 +93,7 @@ def error(update, context):
 
 def main():
     insertData()
-    TOKEN = "1725617796:AAEa2tON0E4gsU8JesJahQljpehbeVbn4Rs"
+    TOKEN = ""
     updater = Updater(TOKEN, use_context=True) 
     dp = updater.dispatcher
     timer2()
